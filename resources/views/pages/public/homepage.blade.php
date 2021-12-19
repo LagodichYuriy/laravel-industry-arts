@@ -92,9 +92,10 @@
             const $table = $('#api-response');
             const $tbody = $table.find('tbody');
 
-            $('.menu .item').tab({ 'onVisible': function() {
+            $('.menu .item').tab({ 'onVisible': function()
+            {
                     hideErrorsAndTable(true);
-                } });
+            }});
 
             $('form').submit(function(event)
             {
